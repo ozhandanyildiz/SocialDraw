@@ -5,7 +5,7 @@ import Draw from './components/Draw';
 import Home from './components/Home'; 
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
